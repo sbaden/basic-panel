@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="6.0" ExtensionBundleId="com.basic_panel" ExtensionBundleVersion="1.0.0"
-		ExtensionBundleName="Basic Panel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest
+	Version="6.0"
+	ExtensionBundleId="com.basic_panel"
+	ExtensionBundleVersion="1.0.0"
+	ExtensionBundleName="Basic Panel" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
 	<ExtensionList>
-		<Extension Id="com.basic_panel" Version="1.0" />
+		<Extension Id="com.basic_panel"
+			Version="1.0" 
+		/>
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-            <!-- Uncomment Host tags according to the apps you want your panel to support -->
             <!-- Photoshop -->
             <!-- <Host Name="PHXS" Version="[14.0,2100.0]" /> -->
             <!-- <Host Name="PHSP" Version="[14.0,2100.0]" /> -->
@@ -17,7 +23,7 @@
             <!-- Premiere -->
             <Host Name="PPRO" Version="[7.0,2100.0]" />
             <!-- AfterEffects -->
-            <!-- <Host Name="AEFT" Version="[13.0,2100.0]" /> -->
+            <Host Name="AEFT" Version="[13.0,2100.0]" />
             <!-- PRELUDE -->
             <!-- <Host Name="PRLD" Version="[2.0,2100.0]" />   -->
             <!-- FLASH Pro -->
